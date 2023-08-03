@@ -6,7 +6,7 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="w-full h-full max-w-screen flex flex-wrap flex-row items-start bg-gray-400">
+    <div class="w-full h-full max-w-screen flex flex-wrap flex-row items-start bg-gray-100 overflow-x-hidden">
 
       <navbar class="w-full flex flex-row justify-center text-gray-100 py-5 bg-violet-900">
         <section class="flex-[0_0_40%] flex flex-row flex-wrap justify-start font-bold text-2xl items-center">
@@ -19,16 +19,20 @@
 
       <section class="w-full flex flex-row flex-wrap justify-center items-start text-5xl text-gray-100 pt-10 bg-violet-900">
         <div class="w-[30%] text-center">
-          Data tailored to your needs
+          Data <span class="td-1">tailored</span> to your needs
         </div>
+        <div class="w-full pt-3 pb-3"></div>
+        <div class="bg-[#3bf16f] px-6 py-2 text-violet-900 text-base">Learn More</div>
         <div class="w-full h-[100px] relative">
-          <img class="w-full z-10 max-h-[300px] object-contain absolute top-[50%]" src="./public/images/report.svg" alt="report" />
+          <img class="w-full z-10 max-h-[250px] object-contain absolute top-[35%]" src="./public/images/report.svg" alt="report" />
         </div>
       </section>
 
       <section class="h-[100px] bg-violet-900 w-full cp-1"></section>
 
-      <section class="w-full h-[350px] bg-gray-400"></section>
+      <section class="w-full h-[450px] bg-gray-100"></section>
+
+      <section class="w-full h-[100px] bg-white cp-1 rotate-[180deg]"></section>
 
     </div>
     <script type="module" src="/main.js"></script>
