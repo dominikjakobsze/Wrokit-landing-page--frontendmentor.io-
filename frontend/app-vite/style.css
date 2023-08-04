@@ -9,3 +9,19 @@
 .td-1 {
     border-bottom: 2px solid #3bf16f;
 }
+
+.multiline-truncate-3 {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.multiline-truncate-2 {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
